@@ -110,7 +110,7 @@ jobs:
       - if: ${{ env.IS_INTERNAL_BUILD == 'true' }}
         name: Determine which docs-early-access branch to clone
         id: 'check-early-access'
-        uses: actions/github-script@57c10d434ec3b7112b3635cd63771978bcfc50dc
+        uses: actions/github-script@060d68304cc19ea84d828af10e34b9c6ca7bdb31
         env:
           BRANCH_NAME: ${{ env.BRANCH_NAME }}
         with:
