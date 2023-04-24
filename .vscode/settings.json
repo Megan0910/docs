@@ -3,5 +3,8 @@
     "**/translations": true
   },
   "workbench.editor.enablePreview": true,
-  "workbench.editor.enablePreviewFromQuickOpen": false
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "cSpell.words": [
+    "Changess"
+  ]
 }
