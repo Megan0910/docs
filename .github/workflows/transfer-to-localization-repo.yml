@@ -19,7 +19,7 @@ jobs:
     if: (github.event.label.name == 'localization ' && github.repository == 'github/docs')
     steps:
       - name: Check if this run was triggered by a member of the docs team
-        uses: actions/github-script@57c10d434ec3b7112b3635cd63771978bcfc50dc
+        uses: actions/github-script@6f00a0b667f9463337970371ccda9072ee86fb27
         id: triggered-by-member
         with:
           github-token: ${{secrets.DOCUBOT_READORG_REPO_WORKFLOW_SCOPES}}
